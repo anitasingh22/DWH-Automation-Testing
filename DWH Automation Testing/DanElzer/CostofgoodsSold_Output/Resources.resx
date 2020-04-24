@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TestResource_DWHstage_9c0a93a6e32045e78e7d50bba97c5f8f" type="System.Byte[], mscorlib">
+    <value>
+        H4sIAAAAAAAEABXKMQ7DIAxA0XCI7lygqFm6REzQoTO5gCFuimSwQoyq9PRNx//0XfAPNQyDuoRjFyzG
+        g4AJGznKWEXBv3Xg3hLaSNco+0ajidBezGKW8p2eNUsG0u48iVfrP+/TBNcGgosOmHrLcti5dZwc14pJ
+        9JwLchd7v/0AvCGHFIIAAAA=
+</value>
+  </data>
+  <data name="TestResource_SSASMatrixProduction_b89de6cae6604205b75e0566246db3fc" type="System.Byte[], mscorlib">
+    <value>
+        H4sIAAAAAAAEAC2NQQ6CMBAA4Qn+oC8ocjOSHgx4MJFAUj+wllU2wdZst6I+zPep0TnOHKa2zTbPsixf
+        2EcUvOgGBHQ3YXPMX3nP4UYDsmltt9/0elV9s7IhsUMDEZ6JcV0UkKIwTAQIUfTf65n8EOaoPUoB8crD
+        MI/LsuqRI0VRFl1ikofa+VMwB05Y1eBGVJskI3ohB0LB/8rOkxBMqv78p3A2LQjTvaqD9+hEHeiCIYkp
+        lx/eMxN4idQAAAA=
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_27860fdfe98a4c9089800d9e987d1a72" xml:space="preserve">
+    <value>with cte  as
+(
+select ga.ACCOUNT_TYPE,
+iif(ga.ACCOUNT_TYPE = 'E',sum( CAST(DecryptByCert(Cert_Id('Fincertificate'), AMOUNT, N'75ugBRGy') AS money) *-1),
+sum( CAST(DecryptByCert(Cert_Id('Fincertificate'), AMOUNT, N'75ugBRGy') AS money)) ) AS Sum_of_CostofGoodSold
+        FROM [Dwh].[dw].[factGeneralLedgerJournal] fj
+        inner join dw.dimGeneralLedgerAccount  ga on fj.DIM_GENERAL_LEDGER_ACCOUNT_KEY=ga.DIM_GENERAL_LEDGER_ACCOUNT_KEY
+    where
+        (
+            ga.ACCOUNT_NUMBER  in 
+			('1000','1050','1060','1100','1101','1200','1210','1215','1225','1300','1301',
+'1310','1311','1312','2000','2001','2002','2004','2005','2006','2007','2008','2010','2011',
+'2012','2015','2017','2018','2019','2023','2027','2028','2029','2030','2033','2036','2037',
+'2044','2045','2047','2100','2107','2108','2155','2300','2310','2320','2402')
+            
+        )
+     and fj.DIM_DATE_KEY between 20190401 and 20200331
+      group by ga.ACCOUNT_TYPE
+      )
+ 
+      select sum(cte.Sum_of_CostofGoodSold) Sum_of_cost_of_goods_Sold
+      from cte</value>
+  </data>
+  <data name="TestResource_ActualQuery_30ba6fe4ea854003adc65b4ae5e9619d" xml:space="preserve">
+    <value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  TREATAS({"2019-2020"}, 'Date'[Financial Year (Calendar)])
+
+EVALUATE
+  TOPN(
+    501,
+    SUMMARIZECOLUMNS(
+      'Date'[Financial Year (Calendar)],
+      __DS0FilterTable,
+      "Sum_of_Cost_of_Goods_Sold_FYTD", 'Measure'[Sum of Cost of Goods Sold FYTD]
+    ),
+    'Date'[Financial Year (Calendar)],
+    1
+  )
+
+ORDER BY
+  'Date'[Financial Year (Calendar)]
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_46b30c8c77854d3e9e84439cf2c6d938" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAAAAAABAAAAAgAAAAAAAAABAAAAAgAAACM8Q29tcGFyZXJEYXRhIGZpeGVkVG9sZXJhbmNlPSIx
+        IiAvPhlTdW1fb2ZfY29zdF9vZl9nb29kc19Tb2xkIFtTdW1fb2ZfQ29zdF9vZl9Hb29kc19Tb2xkX0ZZ
+        VERdAAAAAA==
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_8629fb71ec16453f92789ff33904fd31" xml:space="preserve">
+    <value>with cte  as
+(
+select ga.ACCOUNT_TYPE,
+iif(ga.ACCOUNT_TYPE = 'E',sum( CAST(DecryptByCert(Cert_Id('Fincertificate'), AMOUNT, N'75ugBRGy') AS money) *-1),
+sum( CAST(DecryptByCert(Cert_Id('Fincertificate'), AMOUNT, N'75ugBRGy') AS money)) ) AS Sum_of_CostofGoodSold
+        FROM [Dwh].[dw].[factGeneralLedgerJournal] fj
+        inner join dw.dimGeneralLedgerAccount  ga on fj.DIM_GENERAL_LEDGER_ACCOUNT_KEY=ga.DIM_GENERAL_LEDGER_ACCOUNT_KEY
+    where
+        (
+            ga.ACCOUNT_NUMBER  IN 
+			('1000','1050','1060','1100','1101','1200','1210','1215','1225','1300','1301',
+'1310','1311','1312','2000','2001','2002','2004','2005','2006','2007','2008','2010','2011',
+'2012','2015','2017','2018','2019','2023','2027','2028','2029','2030','2033','2036','2037',
+'2044','2045','2047','2100','2107','2108','2155','2300','2310','2320','2402')
+            
+        )
+			 and ga.BILLING_GROUP='Property management'
+
+     and fj.DIM_DATE_KEY between 20190401 and 20200331
+      group by ga.ACCOUNT_TYPE
+      )
+ 
+      select sum(cte.Sum_of_CostofGoodSold) Sum_of_cost_of_goods_Sold
+      from cte</value>
+  </data>
+  <data name="TestResource_ActualQuery_c672e003103f429184b777e5b3cdffa4" xml:space="preserve">
+    <value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  TREATAS({"2019-2020"}, 'Date'[Financial Year (Calendar)])
+
+EVALUATE
+  TOPN(
+    501,
+    SUMMARIZECOLUMNS(
+      'Date'[Financial Year (Calendar)],
+      __DS0FilterTable,
+      "Sum_of_Cost_of_Goods_Sold_PM_FYTD", 'Measure'[Sum of Cost of Goods Sold PM FYTD]
+    ),
+    'Date'[Financial Year (Calendar)],
+    1
+  )
+
+ORDER BY
+  'Date'[Financial Year (Calendar)]
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_c36f1d8cbbff4b289c58ce67f477b52e" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAAAAAABAAAAAgAAAAAAAAABAAAAAgAAACM8Q29tcGFyZXJEYXRhIGZpeGVkVG9sZXJhbmNlPSIx
+        IiAvPhlTdW1fb2ZfY29zdF9vZl9nb29kc19Tb2xkI1tTdW1fb2ZfQ29zdF9vZl9Hb29kc19Tb2xkX1BN
+        X0ZZVERdAAAAAA==
+</value>
+  </data>
+  <data name="TestManifest_CostofgoodsSold_b701adc3f42040098e08e425a8b80dbc" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TestManifest failOnServerPublishFailureExpression="False" testSuiteId="d78c7154-04e6-45ca-bda5-110919ee4e18" testSuiteName="Cost of goods Sold" testGroupId="b701adc3-f420-4009-8e08-e425a8b80dbc" testGroupName="Cost of goods Sold" isSingleGroupMode="True" publishUrl="https://test-api.sentryone.com" publishUserName="asingh@barfoot.co.nz" publishorganizationIdentifier="346" accessToken="OcjV3EfxP3aWHJten0vq8y1hlAFEIPCqVPq0m7FDq5aQWcKm0kaYv/Nwmewb18la0ik/zkxA5CBIARokLVARrolDLM/5jgjwll1C1ukCDSJM4ztqH1t9gdt95zHkzD5XDM65shQHiqQQPMZh8GYbaFv9VZjoidEOtof5wwNIBeO0ZDmcngVPkO91ZcH56petg/AKHi1TQMgjZyR817JUYbga/XdHm957fjcV3jX67bQNd83RUU5F1AnRRSRow8zxJHBk/8SQOQGeMq60xlJr3JIV39VoL8//v/Jt3yCD7zEfeJ7cg+loaqAniVj3rx6einRazsBj4w4lPG+UpinvlwKNKCfZj0PKOWt/VVmLmC3+YqNFg29ohWpeWPhHGhEKjGqC8KvET104FfaZ2lGsVCAHp0VNmxrgBWzY6vlhJPNNqpjxQDb58gy5J+TJjNxt1WerzsBWNbReiEB/7RtaAZyXRKy3Tt7jZpLECNWsmTY600BbRJ4y0pm9PTMtNm4z/msFXnZvn0McIpQNrayyCFn6EdShGvIKeJURZFUQ7t7DGqfxv2Y4w1AeDuZ21RC/wz3YzcG9hznTlIqar+K2FFDSxQFlf893yoc2Ezt7YN2fan/Zgax8uC87ttqanZcAGbBRAIMhnAuv0rJb1dlplhPKy/ruBzBYXPD34F20QuZNXtbgbLlSISl9RYXMUEDiu+0hPzR21VOg89WvzS1V1iwW02ydNYfVmFR8/vOSLL/xfDUZaxUtzPkxLXbW6CThV/CV+wuQRplxPctaXLE7hfYnbPgGtnkspxAXLtUB2xXFFqLiQb7IloOXK+aP1emWCEQgTD9RAKsuzlWkDtrAFwr/Wi97J6SyWI784PQV9qiJRdyhyzQQ14YXhOELrt9e7YoAocgF0tPTCpN0td6Qk72W6qthDXYCl0J9ZPnhTMxIhQXbEH+XuhNG+YEkpodMzPHWBoa+SyD/wxsUrS3/+/PBdruSzcrF3trepY5pftT91blt40JpChWxIv4smQvySibkIlGXHUQEtQ8AXDnv8IvgUX3E/9VqlzGOxtRGVkqhYuG0Xvg6xFTGYspE52639hcPYvIIUeTZaGY5hT2g81nAf207CiZ3tv/0qfH5otWGJWc5FCjJJ7WNUHU/QkTanlMvWEzBA1YjvSdz2XsR1fFEe3+OK34Gi9RcvyU6uFzcPMfYt+XPgN71dI/b8aezYFNe5jjcNGOlgtsrOWrK5xP/hOCO45ktHMDhbaBAyCwF4j1Wr3VJlXLwx6gHz44KiKOcImu7CBK0g86p2eM3lQMRZhVSPVdN3Oz2M1scBycTgx7HOx8qcibkuu7PuUGpDOVNdp6peuUJxEGIQ7dyHNMKwatWpFGzo6VaRot4nUb7MT40JTaSBkXnngqu6ReQ46etKVDCbBKtiHCSs0PT2mmq6p6ClbL+SD40p6ny+sze6LRSDGfXVRn4VYqj4A3T7Pp9O1vZLvnBldlCcxVidDcpvP4lpoGhqh0y0BeNxLxR82q0ArrCb/1+yXf6CYn287cRKod/ksAAjCz9NukLe281GB+CRD86kXnUUhkPzVLKdZSsLsge/rODyjDXNUzEVPizPlnoCiegWJCHSI0Xicy5Zg3SFuWkEYxkvz2rl/3L3c0mm0iJq3SLorRgV+qlE3xUMgUQ4jquZfv1Q95ubw==" refreshToken="MgflqJwMeuPXbgk3QVmU3AgGHLEk8LSjTj2faV1F6k5qa4mCANPAC4X9dP/Xuy/GwoAYpWLNgSPiP/HRXZKc8tg3SwO6vmDhyYay7ebCjt0="&gt;&lt;Keys&gt;&lt;Key key="TestSuiteRevision" value="8" /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName="SumofCostgoodsoldforPMFYTD" testName="Sum of Cost good sold for PM FYTD" testUniqueId="c468d6fc-4018-4fad-b372-7061259fa770" /&gt;&lt;MethodAssociation methodName="SumofCostgoodsoldFYTD" testName="Sum of Cost good sold FYTD" testUniqueId="0f4af11a-01f8-4489-9677-65256ac772e5" /&gt;&lt;MethodAssociation methodName="Test1" testName="Test 1" testUniqueId="9e5ee519-b770-4311-8833-e07085cecea5" /&gt;&lt;/MethodAssociations&gt;&lt;/TestManifest&gt;</value>
+  </data>
+</root>

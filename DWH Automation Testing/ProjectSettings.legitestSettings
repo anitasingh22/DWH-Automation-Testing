@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ParameterSet isServerIntegrationFile="True" frameworkType="NUnit">
-  <Parameters />
+  <Parameters>
+    <Parameter name="LegiTestServerUrl" type="System.String" value="https://test-api.sentryone.com" />
+    <Parameter name="ServerUserName" type="System.String" value="asingh@barfoot.co.nz" />
+    <Parameter name="ServerOrganizationId" type="System.String" value="346" />
+  </Parameters>
   <Mappings />
 </ParameterSet>

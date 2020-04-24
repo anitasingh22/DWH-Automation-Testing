@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestSuite targetFramework="NUnit" failOnServerPublishFailure="False" revision="8" pushRevisionToAssembly="False" lastAssetContentPath="CostofgoodsSold_Assets" name="Cost of goods Sold" uniqueId="d78c7154-04e6-45ca-bda5-110919ee4e18" isEnabled="True">
+  <Assets>
+    <TestAssetCollection>
+      <TestAssets />
+    </TestAssetCollection>
+  </Assets>
+  <TestGroups>
+    <TestGroup conditionFlag="" name="Cost of goods Sold" uniqueId="b701adc3-f420-4009-8e08-e425a8b80dbc" isEnabled="True">
+      <CoverageTargets />
+      <Annotations />
+      <Assets>
+        <TestAssetCollection>
+          <TestAssets>
+            <TestAsset uniqueTypeId="829b5100-8a1a-46ec-b733-9ea62fa7dc39" groupId="bf941917-6860-404a-9dc3-e454592eddbf" name="DWH stage" uniqueId="9c0a93a6-e320-45e7-8e7d-50bba97c5f8f" isEnabled="True" provider="System.Data.SqlClient" connectionString="hYkgHZSlyCZ8kGkHHn8WDengAhWkqn5KWHoaRh0nbTjoELDg8WFebn3lk4L4/QXwID/lMay7klW2RlhW15OVU7X1ICGsuJs8W74uevf41k0YNoBZm79S2cg1aqc7ZbYUHIVVIGa3uEXX+LSazX2RHA==" />
+            <TestAsset uniqueTypeId="829b5100-8a1a-46ec-b733-9ea62fa7dc39" groupId="bf941917-6860-404a-9dc3-e454592eddbf" name="SSAS Matrix Production" uniqueId="b89de6ca-e660-4205-b75e-0566246db3fc" isEnabled="True" provider="System.Data.OleDb" connectionString="1NU6x5CRgZH7WSzO2Xnzl72gt+011lbIi3W0TUQ5j6Gk6C09AxEe04Stq4ibTEYseCdJPloBqY1VatLSgifau2GOst88s22lL4DeABNM6HSxl/j0Hymf0ZmdnpzxTKMciLf60u+cY4fWnpCVfZfT0JLYVOSR/zgzKqFAlQnL070P8ftso8cOipSgNlKeUEBqsd6wY9TI9WKsXPRZv5MTjF11NLwWZAULDOLM4O20DWJLrPn3TPhZ/I5lzhGvRo6M" />
+            <TestAsset uniqueTypeId="829b5100-8a1a-46ec-b733-9ea62fa7dc39" groupId="bf941917-6860-404a-9dc3-e454592eddbf" name="DWH Prod" uniqueId="c2a749ae-94fd-4b38-a26c-8ca0efb4360b" isEnabled="True" provider="System.Data.SqlClient" connectionString="Qd4iffJj9QB+I2wsFl6atb7JdC5r8m7o9PEj8GfycW2gICgF74LNsskz0/xg4c33k5+KmQhnDNPb5GRt3o9wcjIo7enbkYAPQl0h87zND3Wrn6TKO992GO6sLZRV1kh3" />
+            <TestAsset uniqueTypeId="829b5100-8a1a-46ec-b733-9ea62fa7dc39" groupId="bf941917-6860-404a-9dc3-e454592eddbf" name="SSAS Matrix Stage" uniqueId="8e44e5c0-5a37-4644-88a9-d311993a301b" isEnabled="True" provider="System.Data.OleDb" connectionString="1NU6x5CRgZH7WSzO2Xnzl72gt+011lbIi3W0TUQ5j6Gk6C09AxEe04Stq4ibTEYsZCKjLLB+b8iJqJRf0eX9p30L++8MDb1InuuXHu2rYgx04lMp6CSQC8BL/ekR+aRX2uEOe2j96AIKFyIZJ50uF3Aly1TeuWYZfx2d1Bh/EgChBVfvTvSsjhY5J7GO7U67KanK3Wz3RLw7hB9j8fiKTbGW+k0hoh+PfZbtCUel+aouvpjH1bpETBpMLMJAPcgu" />
+          </TestAssets>
+        </TestAssetCollection>
+      </Assets>
+      <GroupInitializationSteps />
+      <TestInitializationSteps />
+      <Tests>
+        <Test category="" conditionFlag="" MaxDegreeOfParallelism="0" name="Test 1" uniqueId="9e5ee519-b770-4311-8833-e07085cecea5" isEnabled="True">
+          <CoverageTargets />
+          <Annotations />
+          <Assets>
+            <TestAssetCollection>
+              <TestAssets />
+            </TestAssetCollection>
+          </Assets>
+          <InitializationSteps />
+          <ExecutionTracks>
+            <ExecutionTrack name="Track 1" uniqueId="4ded9802-805a-4848-af4a-d062aad4e077" isEnabled="True">
+              <Steps />
+            </ExecutionTrack>
+          </ExecutionTracks>
+          <Assertions />
+          <TeardownSteps />
+          <DataTarget>
+            <DataDrivenDataTarget gridDataProvider="00000000-0000-0000-0000-000000000000" isEnabled="False">
+              <Columns />
+            </DataDrivenDataTarget>
+          </DataTarget>
+        </Test>
+        <Test category="" conditionFlag="" MaxDegreeOfParallelism="0" name="Sum of Cost good sold FYTD" uniqueId="0f4af11a-01f8-4489-9677-65256ac772e5" isEnabled="True">
+          <CoverageTargets />
+          <Annotations />
+          <Assets>
+            <TestAssetCollection>
+              <TestAssets>
+                <TestAsset uniqueTypeId="7b291afd-e1b2-41b6-975e-b2877e92f378" groupId="faefd9ec-3560-45ad-8e45-31876985e663" name="Expected Query" uniqueId="27860fdf-e98a-4c90-8980-0d9e987d1a72" isEnabled="True">
+                  <Value>with cte  as
+(
+select ga.ACCOUNT_TYPE,
+iif(ga.ACCOUNT_TYPE = 'E',sum( CAST(DecryptByCert(Cert_Id('Fincertificate'), AMOUNT, N'75ugBRGy') AS money) *-1),
+sum( CAST(DecryptByCert(Cert_Id('Fincertificate'), AMOUNT, N'75ugBRGy') AS money)) ) AS Sum_of_CostofGoodSold
+        FROM [Dwh].[dw].[factGeneralLedgerJournal] fj
+        inner join dw.dimGeneralLedgerAccount  ga on fj.DIM_GENERAL_LEDGER_ACCOUNT_KEY=ga.DIM_GENERAL_LEDGER_ACCOUNT_KEY
+    where
+        (
+            ga.ACCOUNT_NUMBER  in 
+			('1000','1050','1060','1100','1101','1200','1210','1215','1225','1300','1301',
+'1310','1311','1312','2000','2001','2002','2004','2005','2006','2007','2008','2010','2011',
+'2012','2015','2017','2018','2019','2023','2027','2028','2029','2030','2033','2036','2037',
+'2044','2045','2047','2100','2107','2108','2155','2300','2310','2320','2402')
+            
+        )
+     and fj.DIM_DATE_KEY between 20190401 and 20200331
+      group by ga.ACCOUNT_TYPE
+      )
+ 
+      select sum(cte.Sum_of_CostofGoodSold) Sum_of_cost_of_goods_Sold
+      from cte</Value>
+                </TestAsset>
+                <TestAsset uniqueTypeId="7b291afd-e1b2-41b6-975e-b2877e92f378" groupId="faefd9ec-3560-45ad-8e45-31876985e663" name="Actual Query" uniqueId="30ba6fe4-ea85-4003-adc6-5b4ae5e9619d" isEnabled="True">
+                  <Value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  TREATAS({"2019-2020"}, 'Date'[Financial Year (Calendar)])
+
+EVALUATE
+  TOPN(
+    501,
+    SUMMARIZECOLUMNS(
+      'Date'[Financial Year (Calendar)],
+      __DS0FilterTable,
+      "Sum_of_Cost_of_Goods_Sold_FYTD", 'Measure'[Sum of Cost of Goods Sold FYTD]
+    ),
+    'Date'[Financial Year (Calendar)],
+    1
+  )
+
+ORDER BY
+  'Date'[Financial Year (Calendar)]
+</Value>
+                </TestAsset>
+                <TestAsset uniqueTypeId="2571b779-e5f0-48a9-9600-cdf3f4c47803" groupId="2c953ca5-c296-4d67-8e60-2319eece7125" name="Comparison Manifest" uniqueId="46b30c8c-7785-4d3e-9e84-439cf2c6d938" isEnabled="True" leftGridProvider="1a7140f7-bae1-417c-b3ae-b3c6cb1036a5" rightGridProvider="d3c22b2a-f3da-4023-a32c-5c858f9fc1a5">
+                  <LeftColumns>
+                    <Column index="0" columnName="Sum_of_cost_of_goods_Sold" typeName="System.Decimal" />
+                  </LeftColumns>
+                  <RightColumns>
+                    <Column index="0" columnName="Date[Financial Year (Calendar)]" typeName="System.String" />
+                    <Column index="1" columnName="[Sum_of_Cost_of_Goods_Sold_FYTD]" typeName="System.Double" />
+                  </RightColumns>
+                </TestAsset>
+              </TestAssets>
+            </TestAssetCollection>
+          </Assets>
+          <InitializationSteps />
+          <ExecutionTracks>
+            <ExecutionTrack name="Track 1" uniqueId="d54e5a1e-913a-44c6-94f4-942b516ebed5" isEnabled="True">
+              <Steps>
+                <TestStepAction uniqueTypeId="5cc010df-35ab-47cc-8960-3c1b68233e01" name="Execute Expected Query" uniqueId="1a7140f7-bae1-417c-b3ae-b3c6cb1036a5" isEnabled="True">
+                  <ExecuteSqlAction>
+                    <!-- The asset containing the query to run against the specified connection -->
+                    <QueryAssetUniqueId value="27860fdf-e98a-4c90-8980-0d9e987d1a72" />
+                    <!-- The connection against which to run the query -->
+                    <ConnectionAssetUniqueId value="9c0a93a6-e320-45e7-8e7d-50bba97c5f8f" />
+                    <!-- The key to give to the grid placed in the test resources -->
+                    <TargetResourceKey value="SqlTest_LeftQuery" />
+                    <!-- The zero based index of the result set to save -->
+                    <ResultSetIndex value="0" />
+                    <!-- True if the grid should be a disk based grid, rather than in-memory (for larger grids) -->
+                    <DiskBased value="False" />
+                    <!-- The timeout to use with the query -->
+                    <Timeout value="30" />
+                  </ExecuteSqlAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Steps>
+            </ExecutionTrack>
+            <ExecutionTrack name="Track 2" uniqueId="dd396614-9a10-425e-96ed-6c6798e52266" isEnabled="True">
+              <Steps>
+                <TestStepAction uniqueTypeId="5cc010df-35ab-47cc-8960-3c1b68233e01" name="Execute Actual Query" uniqueId="d3c22b2a-f3da-4023-a32c-5c858f9fc1a5" isEnabled="True">
+                  <ExecuteSqlAction>
+                    <!-- The asset containing the query to run against the specified connection -->
+                    <QueryAssetUniqueId value="30ba6fe4-ea85-4003-adc6-5b4ae5e9619d" />
+                    <!-- The connection against which to run the query -->
+                    <ConnectionAssetUniqueId value="b89de6ca-e660-4205-b75e-0566246db3fc" />
+                    <!-- The key to give to the grid placed in the test resources -->
+                    <TargetResourceKey value="SqlTest_RightQuery" />
+                    <!-- The zero based index of the result set to save -->
+                    <ResultSetIndex value="0" />
+                    <!-- True if the grid should be a disk based grid, rather than in-memory (for larger grids) -->
+                    <DiskBased value="False" />
+                    <!-- The timeout to use with the query -->
+                    <Timeout value="30" />
+                  </ExecuteSqlAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Steps>
+            </ExecutionTrack>
+          </ExecutionTracks>
+          <Assertions>
+            <TestAssertion uniqueTypeId="3f5c501a-2e36-46e8-a6f7-ec623798a515" name="Compare Grids" uniqueId="a07875b2-0c06-474f-b14a-0ec994a46ecb" isEnabled="True">
+              <GridComparison>
+                <!-- The grid that contains the expected results used by the grid comparison -->
+                <LeftGridResourceKey value="SqlTest_LeftQuery" />
+                <!-- The grid that contains the actual results used by the grid comparison -->
+                <RightGridResourceKey value="SqlTest_RightQuery" />
+                <!-- The comparison manifest specifying how to compare the grids -->
+                <ManifestAssetUniqueId value="46b30c8c-7785-4d3e-9e84-439cf2c6d938" />
+                <!-- True if the rows only appearing in the expected grid should be ignored -->
+                <IgnoreLeftOnlyRows value="False" />
+                <!-- True if the rows only appearing in the actual grid should be ignored -->
+                <IgnoreRightOnlyRows value="False" />
+                <!-- True if the rows that differ should be ignored -->
+                <IgnoreDifferentRows value="False" />
+                <!-- True if the aggregated comparisons should be ignored -->
+                <IgnoreAggregates value="False" />
+                <!-- True if equal rows should be included in the difference log sent to the server -->
+                <IncludeEqualRows value="False" />
+                <!-- The maximum number of differences to send to SentryOne Test -->
+                <DifferenceLogRowLimit value="200" />
+                <!-- The number of rows which were different that will included in the test runner message on failure. -->
+                <TestOutputMessageRowLimit value="10" />
+              </GridComparison>
+              <ErrorConfiguration includeDerivedTypes="False" />
+            </TestAssertion>
+          </Assertions>
+          <TeardownSteps />
+          <DataTarget>
+            <DataDrivenDataTarget gridDataProvider="00000000-0000-0000-0000-000000000000" isEnabled="False">
+              <Columns />
+            </DataDrivenDataTarget>
+          </DataTarget>
+        </Test>
+        <Test category="" conditionFlag="" MaxDegreeOfParallelism="0" name="Sum of Cost good sold for PM FYTD" uniqueId="c468d6fc-4018-4fad-b372-7061259fa770" isEnabled="True">
+          <CoverageTargets />
+          <Annotations />
+          <Assets>
+            <TestAssetCollection>
+              <TestAssets>
+                <TestAsset uniqueTypeId="7b291afd-e1b2-41b6-975e-b2877e92f378" groupId="faefd9ec-3560-45ad-8e45-31876985e663" name="Expected Query" uniqueId="8629fb71-ec16-453f-9278-9ff33904fd31" isEnabled="True">
+                  <Value>with cte  as
+(
+select ga.ACCOUNT_TYPE,
+iif(ga.ACCOUNT_TYPE = 'E',sum( CAST(DecryptByCert(Cert_Id('Fincertificate'), AMOUNT, N'75ugBRGy') AS money) *-1),
+sum( CAST(DecryptByCert(Cert_Id('Fincertificate'), AMOUNT, N'75ugBRGy') AS money)) ) AS Sum_of_CostofGoodSold
+        FROM [Dwh].[dw].[factGeneralLedgerJournal] fj
+        inner join dw.dimGeneralLedgerAccount  ga on fj.DIM_GENERAL_LEDGER_ACCOUNT_KEY=ga.DIM_GENERAL_LEDGER_ACCOUNT_KEY
+    where
+        (
+            ga.ACCOUNT_NUMBER  IN 
+			('1000','1050','1060','1100','1101','1200','1210','1215','1225','1300','1301',
+'1310','1311','1312','2000','2001','2002','2004','2005','2006','2007','2008','2010','2011',
+'2012','2015','2017','2018','2019','2023','2027','2028','2029','2030','2033','2036','2037',
+'2044','2045','2047','2100','2107','2108','2155','2300','2310','2320','2402')
+            
+        )
+			 and ga.BILLING_GROUP='Property management'
+
+     and fj.DIM_DATE_KEY between 20190401 and 20200331
+      group by ga.ACCOUNT_TYPE
+      )
+ 
+      select sum(cte.Sum_of_CostofGoodSold) Sum_of_cost_of_goods_Sold
+      from cte</Value>
+                </TestAsset>
+                <TestAsset uniqueTypeId="7b291afd-e1b2-41b6-975e-b2877e92f378" groupId="faefd9ec-3560-45ad-8e45-31876985e663" name="Actual Query" uniqueId="c672e003-103f-4291-84b7-77e5b3cdffa4" isEnabled="True">
+                  <Value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  TREATAS({"2019-2020"}, 'Date'[Financial Year (Calendar)])
+
+EVALUATE
+  TOPN(
+    501,
+    SUMMARIZECOLUMNS(
+      'Date'[Financial Year (Calendar)],
+      __DS0FilterTable,
+      "Sum_of_Cost_of_Goods_Sold_PM_FYTD", 'Measure'[Sum of Cost of Goods Sold PM FYTD]
+    ),
+    'Date'[Financial Year (Calendar)],
+    1
+  )
+
+ORDER BY
+  'Date'[Financial Year (Calendar)]
+</Value>
+                </TestAsset>
+                <TestAsset uniqueTypeId="2571b779-e5f0-48a9-9600-cdf3f4c47803" groupId="2c953ca5-c296-4d67-8e60-2319eece7125" name="Comparison Manifest" uniqueId="c36f1d8c-bbff-4b28-9c58-ce67f477b52e" isEnabled="True" leftGridProvider="f184b763-539e-4f5d-984f-f4625f0a6b2e" rightGridProvider="7269c7f9-6895-4b93-acac-0ba41891004a">
+                  <LeftColumns>
+                    <Column index="0" columnName="Sum_of_cost_of_goods_Sold" typeName="System.Decimal" />
+                  </LeftColumns>
+                  <RightColumns>
+                    <Column index="0" columnName="Date[Financial Year (Calendar)]" typeName="System.String" />
+                    <Column index="1" columnName="[Sum_of_Cost_of_Goods_Sold_PM_FYTD]" typeName="System.Double" />
+                  </RightColumns>
+                </TestAsset>
+              </TestAssets>
+            </TestAssetCollection>
+          </Assets>
+          <InitializationSteps />
+          <ExecutionTracks>
+            <ExecutionTrack name="Track 1" uniqueId="78931c70-5710-456a-9e23-918b3910b477" isEnabled="True">
+              <Steps>
+                <TestStepAction uniqueTypeId="5cc010df-35ab-47cc-8960-3c1b68233e01" name="Execute Expected Query" uniqueId="f184b763-539e-4f5d-984f-f4625f0a6b2e" isEnabled="True">
+                  <ExecuteSqlAction>
+                    <!-- The asset containing the query to run against the specified connection -->
+                    <QueryAssetUniqueId value="8629fb71-ec16-453f-9278-9ff33904fd31" />
+                    <!-- The connection against which to run the query -->
+                    <ConnectionAssetUniqueId value="9c0a93a6-e320-45e7-8e7d-50bba97c5f8f" />
+                    <!-- The key to give to the grid placed in the test resources -->
+                    <TargetResourceKey value="SqlTest_LeftQuery" />
+                    <!-- The zero based index of the result set to save -->
+                    <ResultSetIndex value="0" />
+                    <!-- True if the grid should be a disk based grid, rather than in-memory (for larger grids) -->
+                    <DiskBased value="False" />
+                    <!-- The timeout to use with the query -->
+                    <Timeout value="30" />
+                  </ExecuteSqlAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Steps>
+            </ExecutionTrack>
+            <ExecutionTrack name="Track 2" uniqueId="a8bb27bd-5f73-4d8d-8ec6-73f48080d909" isEnabled="True">
+              <Steps>
+                <TestStepAction uniqueTypeId="5cc010df-35ab-47cc-8960-3c1b68233e01" name="Execute Actual Query" uniqueId="7269c7f9-6895-4b93-acac-0ba41891004a" isEnabled="True">
+                  <ExecuteSqlAction>
+                    <!-- The asset containing the query to run against the specified connection -->
+                    <QueryAssetUniqueId value="c672e003-103f-4291-84b7-77e5b3cdffa4" />
+                    <!-- The connection against which to run the query -->
+                    <ConnectionAssetUniqueId value="b89de6ca-e660-4205-b75e-0566246db3fc" />
+                    <!-- The key to give to the grid placed in the test resources -->
+                    <TargetResourceKey value="SqlTest_RightQuery" />
+                    <!-- The zero based index of the result set to save -->
+                    <ResultSetIndex value="0" />
+                    <!-- True if the grid should be a disk based grid, rather than in-memory (for larger grids) -->
+                    <DiskBased value="False" />
+                    <!-- The timeout to use with the query -->
+                    <Timeout value="30" />
+                  </ExecuteSqlAction>
+                  <ErrorConfiguration includeDerivedTypes="False" />
+                </TestStepAction>
+              </Steps>
+            </ExecutionTrack>
+          </ExecutionTracks>
+          <Assertions>
+            <TestAssertion uniqueTypeId="3f5c501a-2e36-46e8-a6f7-ec623798a515" name="Compare Grids" uniqueId="0e9c1665-92b1-4578-8db0-1201aadb2d15" isEnabled="True">
+              <GridComparison>
+                <!-- The grid that contains the expected results used by the grid comparison -->
+                <LeftGridResourceKey value="SqlTest_LeftQuery" />
+                <!-- The grid that contains the actual results used by the grid comparison -->
+                <RightGridResourceKey value="SqlTest_RightQuery" />
+                <!-- The comparison manifest specifying how to compare the grids -->
+                <ManifestAssetUniqueId value="c36f1d8c-bbff-4b28-9c58-ce67f477b52e" />
+                <!-- True if the rows only appearing in the expected grid should be ignored -->
+                <IgnoreLeftOnlyRows value="False" />
+                <!-- True if the rows only appearing in the actual grid should be ignored -->
+                <IgnoreRightOnlyRows value="False" />
+                <!-- True if the rows that differ should be ignored -->
+                <IgnoreDifferentRows value="False" />
+                <!-- True if the aggregated comparisons should be ignored -->
+                <IgnoreAggregates value="False" />
+                <!-- True if equal rows should be included in the difference log sent to the server -->
+                <IncludeEqualRows value="False" />
+                <!-- The maximum number of differences to send to SentryOne Test -->
+                <DifferenceLogRowLimit value="200" />
+                <!-- The number of rows which were different that will included in the test runner message on failure. -->
+                <TestOutputMessageRowLimit value="10" />
+              </GridComparison>
+              <ErrorConfiguration includeDerivedTypes="False" />
+            </TestAssertion>
+          </Assertions>
+          <TeardownSteps />
+          <DataTarget>
+            <DataDrivenDataTarget gridDataProvider="00000000-0000-0000-0000-000000000000" isEnabled="False">
+              <Columns />
+            </DataDrivenDataTarget>
+          </DataTarget>
+        </Test>
+      </Tests>
+      <TestTeardownSteps />
+      <GroupTeardownSteps />
+    </TestGroup>
+  </TestGroups>
+  <ParameterSet isServerIntegrationFile="False">
+    <Parameters />
+    <Mappings />
+  </ParameterSet>
+  <AnnotationTypes>
+    <AnnotationType typeName="LegiTest.UserErrorMessage" description="User Error Message" />
+    <AnnotationType typeName="LegiTest.Description" description="Description" />
+    <AnnotationType typeName="LegiTest.ResolutionSteps" description="Resolution Steps" />
+  </AnnotationTypes>
+</TestSuite>

@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TestResource_SSASMatrixProduction_b89de6cae6604205b75e0566246db3fc" type="System.Byte[], mscorlib">
+    <value>
+        H4sIAAAAAAAEAC2NQQ6CMBAA4Qn+oC8ocjOSHgx4MJFAUj+wllU2wdZst6I+zPep0TnOHKa2zTbPsixf
+        2EcUvOgGBHQ3YXPMX3nP4UYDsmltt9/0elV9s7IhsUMDEZ6JcV0UkKIwTAQIUfTf65n8EOaoPUoB8crD
+        MI/LsuqRI0VRFl1ikofa+VMwB05Y1eBGVJskI3ohB0LB/8rOkxBMqv78p3A2LQjTvaqD9+hEHeiCIYkp
+        lx/eMxN4idQAAAA=
+</value>
+  </data>
+  <data name="TestResource_DWHProd_c2a749ae94fd4b38a26c8ca0efb4360b" type="System.Byte[], mscorlib">
+    <value>
+        H4sIAAAAAAAEABXKsQ7CIBRGYXgId56A6OLSMIGDM52bUHqtJMBN6U9MfXrreL4c691DCiHkxR87qGgX
+        ELTfss2JKuT0b+W5t0hmxr7lm55DezFDL+U7PGtCClnZc8u8Gvd5nwZaWwAtylPsLeEwY+s0WK6VItSY
+        CnGHuV9/jAWg6H8AAAA=
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_dcb51eca5b664b39982881f5f1e08927" xml:space="preserve">
+    <value>with cte as
+(
+Select
+	s.[Sales Number],
+	Avg(fc.[Sale Price]) as ave
+from viewFactSales fc
+inner join viewSales s on fc.DIM_SALES_KEY=s.DIM_SALES_KEY
+inner join viewFactCommission c on s.DIM_SALES_KEY = c.DIM_SALES_KEY
+	and c.DIM_DATE_KEY = fc.DIM_DATE_FINALISED_KEY
+	and c.DIM_LISTING_KEY = fc.DIM_LISTING_KEY
+where s.[Is Sales Cleared]=1
+and c.[Commission Type Code]='S'
+group by s.[Sales Number]
+)
+select AVG (ave)  Average_Cleared_Sale_price_of_Sales
+FROM cte
+ </value>
+  </data>
+  <data name="TestResource_ActualQuery_331e0ec8b196448e92036adeb42a9918" xml:space="preserve">
+    <value>// DAX Query
+EVALUATE
+  ROW(
+    "Average_Cleared_Sale_price_of_Sales", 'Measure'[Average Cleared Sale price of Sales]
+  )
+
+
+// DAX Query
+EVALUATE
+  ROW(
+    "Average_Cleared_Sale_price_of_Sales", 'Measure'[Average Cleared Sale price of Sales]
+  )
+
+
+// DAX Query
+EVALUATE
+  ROW(
+    "Average_Cleared_Sale_price_of_Sales", 'Measure'[Average Cleared Sale price of Sales]
+  )
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_1dc20fd066444a1f8711b55213c3ab6b" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAEAAAACAAAAAgAAAAAAAAAAI0F2ZXJhZ2VfQ2xlYXJlZF9TYWxlX3ByaWNlX29mX1NhbGVzAgAA
+        AAAAAAAAJVtBdmVyYWdlX0NsZWFyZWRfU2FsZV9wcmljZV9vZl9TYWxlc10AAAAAAAAAAA==
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_d962058ca5454d04abeb79507d3d771f" xml:space="preserve">
+    <value>with cte as
+(
+Select
+	s.[Sales Number],
+	Avg(fc.[Sale Price]) as ave
+from viewFactSales fc
+inner join viewSales s on fc.DIM_SALES_KEY=s.DIM_SALES_KEY
+inner join viewFactCommission c on s.DIM_SALES_KEY = c.DIM_SALES_KEY
+	and c.DIM_DATE_KEY = fc.DIM_DATE_FINALISED_KEY
+	and c.DIM_LISTING_KEY = fc.DIM_LISTING_KEY
+where s.[Is Sales Cleared]=1
+and c.[Commission Type Code]='L'
+group by s.[Sales Number]
+)
+select AVG (ave)  Average_Cleared_Sale_price_of_Listing
+FROM cte
+ </value>
+  </data>
+  <data name="TestResource_ActualQuery_1bada2b501c74981a85d71ad1e7e511e" xml:space="preserve">
+    <value>// DAX Query
+EVALUATE
+  ROW(
+    "Average_Cleared_Sale_Price_of_Listings", 'Measure'[Average Cleared Sale Price of Listings]
+  )
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_fe8fceb5e098450f8089e3b909ceb12a" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAgAAACM8Q29tcGFyZXJEYXRhIGZpeGVkVG9sZXJhbmNlPSIx
+        IiAvPiVBdmVyYWdlX0NsZWFyZWRfU2FsZV9wcmljZV9vZl9MaXN0aW5nKFtBdmVyYWdlX0NsZWFyZWRf
+        U2FsZV9QcmljZV9vZl9MaXN0aW5nc10AAAAA
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_42602edcdfa4451fb89fcf1e90d9658d" xml:space="preserve">
+    <value>with cte as
+(
+Select
+	s.[Sales Number],
+	Avg(fc.[Sale Price]) as ave
+from viewFactSales fc
+inner join viewSales s on fc.DIM_SALES_KEY=s.DIM_SALES_KEY
+inner join viewFactCommission c on s.DIM_SALES_KEY = c.DIM_SALES_KEY
+	and c.DIM_DATE_KEY = fc.DIM_DATE_FINALISED_KEY
+	and c.DIM_LISTING_KEY = fc.DIM_LISTING_KEY
+where s.[Is Sales Cleared]=1
+and c.[Commission Type Code]='S'
+and c.DIM_DATE_KEY between '20190401' and '20200331'
+group by s.[Sales Number]
+)
+select AVG (ave) Average_Cleared_Sale_Price_for_Sales_FYTD
+from cte</value>
+  </data>
+  <data name="TestResource_ActualQuery_b6b60291bbdd48bfa06500a6900fcafb" xml:space="preserve">
+    <value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  TREATAS({"2019-2020"}, 'Date'[Financial Year (Calendar)])
+
+EVALUATE
+  TOPN(
+    501,
+    SUMMARIZECOLUMNS(
+      'Date'[Financial Year (Calendar)],
+      __DS0FilterTable,
+      "Average_Cleared_Sale_price_of_Sales_FYTD", 'Measure'[Average Cleared Sale price of Sales FYTD]
+    ),
+    'Date'[Financial Year (Calendar)],
+    1
+  )
+
+ORDER BY
+  'Date'[Financial Year (Calendar)]
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_d380419f4da6454584412b1a59a2b7af" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAAAAAABAAAAAgAAAAAAAAABAAAAAgAAACM8Q29tcGFyZXJEYXRhIGZpeGVkVG9sZXJhbmNlPSIx
+        IiAvPilBdmVyYWdlX0NsZWFyZWRfU2FsZV9QcmljZV9mb3JfU2FsZXNfRllURCpbQXZlcmFnZV9DbGVh
+        cmVkX1NhbGVfcHJpY2Vfb2ZfU2FsZXNfRllURF0AAAAA
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_17a787d21221438e889efd84b933c2a5" xml:space="preserve">
+    <value>with cte as
+(
+Select
+	s.[Sales Number],
+	Avg(fc.[Sale Price]) as ave
+from viewFactSales fc
+inner join viewSales s on fc.DIM_SALES_KEY=s.DIM_SALES_KEY
+inner join viewFactCommission c on s.DIM_SALES_KEY = c.DIM_SALES_KEY
+	and c.DIM_DATE_KEY = fc.DIM_DATE_FINALISED_KEY
+	and c.DIM_LISTING_KEY = fc.DIM_LISTING_KEY
+where s.[Is Sales Cleared]=1
+and c.[Commission Type Code]='L'
+and c.DIM_DATE_KEY between '20200401' and '20210331'
+group by s.[Sales Number]
+)
+select AVG (ave) Average_Cleared_Sale_Price_for_Listings_FYTD
+from cte</value>
+  </data>
+  <data name="TestResource_ActualQuery_a0cb671b2eea488c9947978db3d4c573" xml:space="preserve">
+    <value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  TREATAS({"2020-2021"}, 'Date'[Financial Year (Calendar)])
+
+EVALUATE
+  TOPN(
+    501,
+    SUMMARIZECOLUMNS(
+      'Date'[Financial Year (Calendar)],
+      __DS0FilterTable,
+      "Average_Cleared_Sale_Price_of_Listings_FYTD", 'Measure'[Average Cleared Sale Price of Listings FYTD]
+    ),
+    'Date'[Financial Year (Calendar)],
+    1
+  )
+
+ORDER BY
+  'Date'[Financial Year (Calendar)]
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_b9e65668f0e64c71b3ea72ea608f4784" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAAAAAABAAAAAgAAAAAAAAABAAAAAQAAAAAsQXZlcmFnZV9DbGVhcmVkX1NhbGVfUHJpY2VfZm9y
+        X0xpc3RpbmdzX0ZZVEQtW0F2ZXJhZ2VfQ2xlYXJlZF9TYWxlX1ByaWNlX29mX0xpc3RpbmdzX0ZZVERd
+        AAAAAA==
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_2ade3d37322444eda2924a6290c32b85" xml:space="preserve">
+    <value>with cte as
+(
+Select
+	s.[Sales Number],
+	Avg(fc.[Sale Price]) as ave
+from viewFactSales fc
+inner join viewSales s on fc.DIM_SALES_KEY=s.DIM_SALES_KEY
+inner join viewFactCommission c on s.DIM_SALES_KEY = c.DIM_SALES_KEY
+	and c.DIM_DATE_KEY = fc.DIM_DATE_FINALISED_KEY
+	and c.DIM_LISTING_KEY = fc.DIM_LISTING_KEY
+where s.[Is Sales Cleared]=1
+AND c.[Commission Type Code] IN ('L','S')
+and c.DIM_DATE_KEY between '20200401' and '20210331'
+group by s.[Sales Number]
+)
+select AVG (ave) Average_Cleared_Sale_Price_for_Sales_AND_Listings_FYTD
+from cte</value>
+  </data>
+  <data name="TestResource_ActualQuery_666caf35e0574aae851f7404b5fc732d" xml:space="preserve">
+    <value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  TREATAS({"2020-2021"}, 'Date'[Financial Year (Calendar)])
+
+EVALUATE
+  TOPN(
+    501,
+    SUMMARIZECOLUMNS(
+      'Date'[Financial Year (Calendar)],
+      __DS0FilterTable,
+      "Average_Cleared_Sale_Price_of_Listings_and_Sales_FYTD", 'Measure'[Average Cleared Sale Price of Listings and Sales FYTD]
+    ),
+    'Date'[Financial Year (Calendar)],
+    1
+  )
+
+ORDER BY
+  'Date'[Financial Year (Calendar)]
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_b1cd0ce1fb9540d38d3da9c5a4c4c314" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAAAAAABAAAAAgAAAAAAAAABAAAAAQAAAAA2QXZlcmFnZV9DbGVhcmVkX1NhbGVfUHJpY2VfZm9y
+        X1NhbGVzX0FORF9MaXN0aW5nc19GWVREN1tBdmVyYWdlX0NsZWFyZWRfU2FsZV9QcmljZV9vZl9MaXN0
+        aW5nc19hbmRfU2FsZXNfRllURF0AAAAA
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_bfab3ea49a8d4fa7bd74384886434b81" xml:space="preserve">
+    <value>with cte as
+(
+Select
+	s.[Sales Number],
+	Avg(fc.[Sale Price]) as ave
+from viewFactSales fc
+inner join viewSales s on fc.DIM_SALES_KEY=s.DIM_SALES_KEY
+inner join viewFactCommission c on s.DIM_SALES_KEY = c.DIM_SALES_KEY
+	and c.DIM_DATE_KEY = fc.DIM_DATE_FINALISED_KEY
+	and c.DIM_LISTING_KEY = fc.DIM_LISTING_KEY
+where s.[Is Sales Cleared]=1
+AND c.[Commission Type Code] IN ('L','S')
+and c.DIM_DATE_KEY between '20200201' and '20210131'
+group by s.[Sales Number]
+)
+select AVG (ave) Average_Cleared_Sale_Price_for_Sales_AND_Listings_FYTD
+from cte</value>
+  </data>
+  <data name="TestResource_ActualQuery_8607805810ce417facf21fe91474849b" xml:space="preserve">
+    <value>// DAX Query
+DEFINE
+  VAR __DS0FilterTable = 
+    TREATAS({"January"}, 'Date'[Calendar Month Name])
+
+  VAR __DS0FilterTable2 = 
+    FILTER(KEEPFILTERS(VALUES('Date'[Calendar Year])), 'Date'[Calendar Year] = 2021)
+
+EVALUATE
+  TOPN(
+    501,
+    SUMMARIZECOLUMNS(
+      'Date'[Calendar Month Name],
+      'Date'[Financial Month Number],
+      'Date'[Calendar Year],
+      __DS0FilterTable,
+      __DS0FilterTable2,
+      "Average_Cleared_Sale_Price_of_Listings_and_Sales_Rolling_12_Months", 'Measure'[Average Cleared Sale Price of Listings and Sales Rolling 12 Months]
+    ),
+    'Date'[Financial Month Number],
+    1,
+    'Date'[Calendar Month Name],
+    1,
+    'Date'[Calendar Year],
+    1
+  )
+
+ORDER BY
+  'Date'[Financial Month Number], 'Date'[Calendar Month Name], 'Date'[Calendar Year]
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_dda7335f0347400a83e1da204a6fbfea" type="System.Byte[], mscorlib">
+    <value>AgAAAAAAAAAAAAAAAAAAAA==</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_931fda72462049b08e1ca974dcc30e26" xml:space="preserve">
+    <value>
+with cte as
+(
+Select
+	s.[Sales Number],
+	Avg(fc.[Sale Price]) as ave,l.[Listing Number]
+from viewFactSales fc
+inner join viewSales s on fc.DIM_SALES_KEY=s.DIM_SALES_KEY
+inner join viewFactCommission c on s.DIM_SALES_KEY = c.DIM_SALES_KEY
+	and c.DIM_DATE_KEY = fc.DIM_DATE_FINALISED_KEY
+	and c.DIM_LISTING_KEY = fc.DIM_LISTING_KEY
+inner join viewListing l
+	on fc.DIM_LISTING_KEY=l.DIM_LISTING_KEY
+where s.[Is Sales Cleared]=1
+and c.[Commission Type Code] in ('s')
+--and c.DIM_DATE_KEY between '20190401' and '20200331'
+group by s.[Sales Number], l.[Listing Number]
+--order by [Listing Number], [Sales Number]
+
+--select * from dw.dimSales where LISTING_NUMBER='39196A'
+--select * from dw.dimListing where LISTING_NUMBER='39196A'
+
+)
+,cte1 as (
+select AVG (ave) Average_Cleared_Sale_Price_for_Sales_FYTD, cte.[Listing Number]
+from cte
+group by cte.[Listing Number]
+--order by  cte.[Listing Number] desc
+)
+ 
+select COUNT([Listing Number]) CountofListingsForSellingBranch FROM cte1
+
+</value>
+  </data>
+  <data name="TestResource_ActualQuery_abc74bb188fe4cedbae5523a0d2ff634" xml:space="preserve">
+    <value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  FILTER(
+    KEEPFILTERS(VALUES('Listing'[Listing Number])),
+    NOT(ISBLANK('Listing'[Listing Number]))
+  )
+
+EVALUATE
+  SUMMARIZECOLUMNS(
+    __DS0FilterTable,
+    "Count_of_Listings_for_Selling_Branch", IGNORE('Measure'[Count of Listings for Selling Branch])
+  )
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_85c9819e84a54108b2b97421b99a794e" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAQAAAAAfQ291bnRvZkxpc3RpbmdzRm9yU2VsbGluZ0JyYW5j
+        aCZbQ291bnRfb2ZfTGlzdGluZ3NfZm9yX1NlbGxpbmdfQnJhbmNoXQAAAAA=
+</value>
+  </data>
+  <data name="TestResource_ExpectedQuery_a0ba92be8bc24f5292e0aac023152f83" xml:space="preserve">
+    <value>
+with cte as
+(
+Select
+	s.[Sales Number],
+	Avg(fc.[Sale Price]) as ave,l.[Listing Number]
+from viewFactSales fc
+inner join viewSales s on fc.DIM_SALES_KEY=s.DIM_SALES_KEY
+inner join viewFactCommission c on s.DIM_SALES_KEY = c.DIM_SALES_KEY
+	and c.DIM_DATE_KEY = fc.DIM_DATE_FINALISED_KEY
+	and c.DIM_LISTING_KEY = fc.DIM_LISTING_KEY
+inner join viewListing l
+	on fc.DIM_LISTING_KEY=l.DIM_LISTING_KEY
+where s.[Is Sales Cleared]=1
+and c.[Commission Type Code] in ('L')
+--and c.DIM_DATE_KEY between '20190401' and '20200331'
+group BY s.[Sales Number], l.[Listing Number]
+)
+,cte1 as (
+select AVG (ave) Average_Cleared_Sale_Price_for_Sales_FYTD, cte.[Listing Number]
+from cte
+group BY cte.[Listing Number]
+
+)
+ 
+select COUNT([Listing Number]) CountofListingsForListingBranch FROM cte1
+
+</value>
+  </data>
+  <data name="TestResource_ActualQuery_8f6a9e0d01b0452ca665fd104b9b995c" xml:space="preserve">
+    <value>// DAX Query
+DEFINE VAR __DS0FilterTable = 
+  FILTER(
+    KEEPFILTERS(VALUES('Listing'[Listing Number])),
+    NOT(ISBLANK('Listing'[Listing Number]))
+  )
+
+EVALUATE
+  SUMMARIZECOLUMNS(
+    __DS0FilterTable,
+    "Count_of_Listings_for_Listing_Branch", IGNORE('Measure'[Count of Listings for Listing Branch])
+  )
+</value>
+  </data>
+  <data name="TestResource_ComparisonManifest_3994383f30694f0994d3935c9313e6a3" type="System.Byte[], mscorlib">
+    <value>
+        AgAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAQAAAAAfQ291bnRvZkxpc3RpbmdzRm9yTGlzdGluZ0JyYW5j
+        aCZbQ291bnRfb2ZfTGlzdGluZ3NfZm9yX0xpc3RpbmdfQnJhbmNoXQAAAAA=
+</value>
+  </data>
+  <data name="TestManifest_AveragePricePerTransaction_c4b3499ab08a4ee89f96879cfcdba79e" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TestManifest failOnServerPublishFailureExpression="False" testSuiteId="5f8cbcf1-fbf3-4dbb-a5ba-9a5c63b60082" testSuiteName="Average Price Per Transaction" testGroupId="c4b3499a-b08a-4ee8-9f96-879cfcdba79e" testGroupName="Average Price Per Transaction" isSingleGroupMode="True" publishUrl="https://test-api.sentryone.com" publishUserName="asingh@barfoot.co.nz" publishorganizationIdentifier="346" accessToken="OcjV3EfxP3aWHJten0vq8y1hlAFEIPCqVPq0m7FDq5aQWcKm0kaYv/Nwmewb18la0ik/zkxA5CBIARokLVARrolDLM/5jgjwll1C1ukCDSJM4ztqH1t9gdt95zHkzD5XDM65shQHiqQQPMZh8GYbaFv9VZjoidEOtof5wwNIBeO0ZDmcngVPkO91ZcH56petg/AKHi1TQMgjZyR817JUYcnw6QSCXzSl86nPGJHII/BCQpFLZF6J120g0RfjWt+QLfPD3CoDLCARzuUqYfDG3WsFG0acj8Dkxijn9fnroMGJrNgtD24/Om50CcJV+FrqZGPIC0qqMosflByPxIYPCk8I2QaXPkfYxKhYpGwmbE8gGdrIXHtCVGfbHsVGQlH9HJmWpEWO0ui3YniWok1jELf0R7KqHXK86371rr+0d2qQuR9W+bwsLU2/XXfNv5VyT6bsO9mNrByEM5RZ4/C3ieQGdKOSZfYRav3jdCNmstYlFhS7PzoyTohRYoY52pn1JP2O6Tff3J4eF+HZ5+ntKCH0Rhv6h7YIJc9eXzr/i0Jzb5fvXn4dD0gRLCiwp4VXt8F3BwVDtlQ1ZBFbuRvIGHcD5Lz+xCKF+aqAFxmfjWlPa0IxmSe+XSOOzJaozL+rF8QRRhHMb0RExhPytNNK5RoKZ6IOscRwdpCog7qCsy3KjVO8XJIGhZe310j6DyC7/Kgc7IZyIuoQl7QcijupAZ+tFTMLxhbLvjlH3blKtOQxMbPq8EuwYoO944R2XqkTh0mg98PD8WJshcF9AXxk12M2LvlrTUDW05cANlsu8+cIE6NqMxUivWZxj133cciAE2XLNYrNT46iy8kT1RPlwPyRHZHbU1UXDx3sLvMF54U7QQqJLiLOv/v2mofHogKSPwlLvPfYCwUI7e3TH9mTuoVOetVUfVVPwEJOO1FSD+9oTXw5jpn974fS5t915ZExPT65kBz3N6VnPBlS0F0CwHT7SXYS44HTl91PmjEKd7qHS9LNtRY1oOXBS56kLBjfp47pZ02XnolqzBSN19Squklk9L7PnZusjCYJOKH4nzMyOTF9KGGD3IYTjbShfVTjj5Vfb/TBqQk5hCopGSoxzLhSVJEXysx7TtngNH5eecKgMhDEYK4ASbM1GoD5oWjHKS2NQiPTmXVn+mkWUYppwMYfb3hnkNCpMIx/HUKuIapXweYMMNBim5Q6Y8InKFpG7nQXQW8klKPhTKTgkgFB7aorNPXtN7yOZC6L1zWEaCZudsZzAuH85mMFwttJS3m71aCZX+WfG7jlNV3KmlBvyvG76v97JnMfFWYLf1wltRlhjAEAtVF10tHHDUb6vgr0Vcl8dS9FVU18ZsOySbSOeM79rbp3tMD6ERVqHqaVBgMDgYZ3/O7Z49Z9REzv7TemBlL9+d0K0hnw4cXlGxuQ73fQ7Ln/VFkqOrbH5jCYyOaP6OEKhMb1lgDMLKdZhenwNn4emBqOAbX1IVGF315hwyjGu3/AT214w57NdIVDHcHPorOzAG0bESighxXuInnMGyFMzaFrJLweGQDgEJAs4nrUm/4pos+O8IjznI8fbo2786BpH17yiM0pbpLk9J2QlAiqKhhK/pklruuOzLmyepjJE+pdCE+rFzU/gsonAqQPLPPZrfYZ4lkxX7frRacLwWYpTxDRBxQLNwNu8hCPWQ==" refreshToken="MgflqJwMeuPXbgk3QVmU3AgGHLEk8LSjTj2faV1F6k5qa4mCANPAC4X9dP/Xuy/GwoAYpWLNgSPiP/HRXZKc8tg3SwO6vmDhyYay7ebCjt0="&gt;&lt;Keys&gt;&lt;Key key="TestSuiteRevision" value="23" /&gt;&lt;/Keys&gt;&lt;MethodAssociations&gt;&lt;MethodAssociation methodName="AverageClearedSalePriceforListingsFYTD" testName="Average Cleared Sale Price for Listings FYTD" testUniqueId="a68c2f46-6da1-426c-8806-aa53531944d0" /&gt;&lt;MethodAssociation methodName="AverageClearedSalePriceforSalesFYTD" testName="Average Cleared Sale Price for Sales FYTD" testUniqueId="2ed72770-2c8c-4604-80a8-cbe241c6fbf6" /&gt;&lt;MethodAssociation methodName="AverageClearedSalePriceofListing" testName="Average Cleared Sale Price of Listing" testUniqueId="1ab13fd5-2265-4b15-af72-547475824fd0" /&gt;&lt;MethodAssociation methodName="AverageClearedSalePriceofSales" testName="Average Cleared Sale Price of Sales" testUniqueId="8ade303e-ebde-448c-b7b2-c3510f93afe0" /&gt;&lt;MethodAssociation methodName="AverageClearedSalePriceofSalesandListingsFYTD" testName="Average Cleared Sale Price of Sales and  Listings FYTD" testUniqueId="423e49b4-84f5-439d-abb7-d4db553a60e2" /&gt;&lt;MethodAssociation methodName="AverageClearedSalePriceofSalesandListingsRolling12Month" testName="Average Cleared Sale Price of Sales and  Listings Rolling 12Month" testUniqueId="91a8069c-6fcd-4904-a2ff-e135079619f7" /&gt;&lt;MethodAssociation methodName="CountofListingsforListingsBranch" testName="Count of Listings for ListingsBranch" testUniqueId="682de7f2-118b-4060-99ca-ab14b06ecd7d" /&gt;&lt;MethodAssociation methodName="CountofListingsforSellingBranch" testName="Count of Listings for SellingBranch" testUniqueId="61eaf2c3-11c5-4a3f-bb28-08ece5affe86" /&gt;&lt;/MethodAssociations&gt;&lt;/TestManifest&gt;</value>
+  </data>
+</root>
